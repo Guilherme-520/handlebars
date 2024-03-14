@@ -9,6 +9,10 @@ app.get("/", (req,res)=>{
     res.render("primeira_pagina")
 })
 
+app.get("/about", (req,res)=>{
+    res.render("about")
+})
+
 app.listen(8081, ()=>{
     console.log("Servido rodando na porta 8081")
 })
